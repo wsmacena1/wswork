@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MakeBlog - Thalyta Lomardes</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="Willians Macena">
+    <meta name="robots" content="index,follow"> 
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+    <style type="text/css">
+
+        .menu-dropdown{
+            width: 100%;
+            height: 30px;
+            background-color: #222;
+            font-family: 'Arial';
+        }
+        .menu-dropdown ul{
+            list-style: none;
+            position: relative;
+ 
+        }
+
+        .menu-dropdown ul li{
+            width: 150px;
+            float: left;
+        }
+
+        .menu-dropdown a{
+            padding: 15px;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            background-color: #222;
+            color: #fff;
+        }
+
+        .menu-dropdown ul ul{
+            position: absolute;
+            visibility: hidden;
+        }
+
+        .menu-dropdown ul ul li{
+            border-bottom: 1px solid white;
+        }
+
+        .menu-dropdown ul ul li a{
+            background-color: #848484;
+        }
+
+        .menu-dropdown ul li:hover ul{
+            visibility: visible;
+        }
+
+        .menu-dropdown a:hover{
+            color: black;
+        }
+    </style>
+
+</head>
+<body>
+
+    <nav class="menu-dropdown">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tabela.html">Tabelas</a></li>
+            <li><a href="formulario.html">Formulários</a></li>
+            <li><a href="formulario.html">Cursos</a>
+                <ul>
+                    <li><a href="#">HTML/CSS</a></li><br>
+                    <li><a href="#">Java</a></li><br>
+                    <li><a href="#">MySql/SqlServer</a></li><br>
+                </ul>
+            </li>
+            <li><a href="#">Galeria</a>
+                <ul>
+                    <li><a href="galeria.html">Cabelo e Maquiagem</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+<script src="htt ps://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="bootstrap/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
