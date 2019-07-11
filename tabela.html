@@ -11,6 +11,7 @@
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="estilo.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,8 +21,29 @@
   <![endif]-->
 </head>
 <body>
-    <div class="container">
+    
+    <nav class="menu-dropdown">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tabela.html">Tabelas</a></li>
+            <li><a href="formulario.html">Formulários</a></li>
+            <li><a href="#">Cursos</a>
+                <ul>
+                    <li><a href="#">HTML/CSS</a></li><br>
+                    <li><a href="#">Java</a></li><br>
+                    <li><a href="#">MySql/SqlServer</a></li><br>
+                    <li><a href="formulario.html">Formulário</a></li><br>
+                </ul>
+            </li>
+            <li><a href="#">Galeria</a>
+                <ul>
+                    <li><a href="galeria.html">Cabelo e Maquiagem</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 
+    <div class="container" id="principal">
         <div class="page-header">
             <h1>Tabelas Will</h1>
         </div>
