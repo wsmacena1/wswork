@@ -84,7 +84,7 @@ a{
 }
 
 a:link{
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 a:visited{
@@ -125,7 +125,7 @@ h2{
 .img-postagem{
 	float: left;
 	margin: 0 10px 10px 0;
-	width: 100%;
+	width: 50%;
 }
 
 .postado{ 
@@ -191,6 +191,10 @@ h2{
 }
 
 .menu-dropdown a:hover{
-    color: black;
+    color: red;
 
+}
+
+.nav{
+	background-color: black;
 }
