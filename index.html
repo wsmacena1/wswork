@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Navegação</title>
+<html lang="pt-br">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Música para todos - Spotify</title>
+    <link rel="icon" href="imagens/favicon.png">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,109 +18,195 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>
-<body>
+    </head>
+    <body>
+        <nav class="nav navbar-fixed-top navbar-inverse navbar-transparente">
+            <div class="container">
+                <!-- Header -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                        <span class="sr-only">Alternar Navegação </span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">
+                        <span class="img-logo">Spotify</span>
+                    </a>
+                </div>
 
+                <div class="collapse navbar-collapse " id="menu"> <!-- Menu de itens -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Premium</a></li>
+                        <li><a href="#">Ajuda</a></li>
+                        <li><a href="#">Baixar</a></li>
+                        <li class="divisor" role="separator"><a href="#"></a></li>
+                        <li><a href="#">Inscrever-se</a></li>
+                        <li><a href="#">Entrar</a></li>
+                    </ul>
+                </div>
 
+            </div><!-- container -->
+        </nav> <!-- Nav -->
 
-    <nav class="nav navbar-default">
-<<<<<<< HEAD
-        <div class="container">
-=======
-        <div class="container col-md-12 col-xs-12">
->>>>>>> 4345c8ccad207fa654c50b48d45b89200125a0d6
-
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapse" data-toggle="collapse"></button>
-                <a class="navbar-brand" href="index.html">ThalyMake</a>
+        <!-- Capa -->
+        <div class="capa">
+            <div class="texto-capa">
+                <h1>Música para Todos</h1>
+                    <a class="btn btn-custom btn-roxo btn-lg " href="#">Aproveite o Spotify Free</a>
+                    <a class="btn btn-custom btn-branco btn-lg " href="#">Obter Spotify Premium</a>
             </div>
-
-            <div classe="col-xs-12">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="tabelas.html">Tabelas</a></li>
-                    <li><a href="formulario.html">Formulários</a></li>
-                    <li>
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cursos</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="modal.html">Modal</a></li>
-                            <li><a href="navegacao.html">Navegação</a></li>
-                            <li><a href="icone.html">Icones</a></li>
-                            <li><a href="tabela.html">Tabelas</a></li>
-                            <li><a href="indexteste.html">Index Teste</a></li>
-                            <li><a href="botoes.html">Botões</a></li>
-                            <li><a href="alert.html">Alerta</a></li>
-                            <li><a href="tooltip.html">Tooltip</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Galeria</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="galeria.html">Cabelo e Maquiagem</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-
         </div>
-<!--         <ul class="col-xs-6 col-sm-12 col-md-12">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="tabela.html">Tabelas</a></li>
-            <li><a href="formulario.html">Formulários</a></li>
-            <li><a href="#">Cursos</a>
-                <ul>
-                    <li><a href="#">HTML/CSS</a></li><br>
-                    <li><a href="#">Java</a></li><br>
-                    <li><a href="#">MySql/SqlServer</a></li><br>
-                    <li><a href="formulario.html">Formulário</a></li><br>
-                </ul>
-            </li>
-            <li><a href="#">Galeria</a>
-                <ul>
-                    <li><a href="galeria.html">Cabelo e Maquiagem</a></li>
-                </ul>
-            </li>
-        </ul> -->
-    </nav>
 
-    <section id="principal" class="col-md-12 col-sm-12 col-xs-12">
-        <article id="postagem">
-           <h2><strong>Ex-funcionário transferiu 300 mil arquivos da Tesla para seu iCloud pessoal</strong></h2>
-           <span class="data-postagem">postada em 28 de junho de 2019</span>
-           <img class="img-postagem" src="img/tesla_1.png">
-           <p>A Tesla está processando um ex-funcionário por ter transferido para seu iCloud pessoal mais de 300 mil arquivos e diretórios relacionados com o piloto automático da empresa e, supostamente, ter levado as informações para a concorrente chinesa Xiaopeng Motors.</p>
+        <!-- Conteúdos -->
+        <section id="servicos" style="background-color: white;">
 
-            <p>Em sua queixa, a Tesla diz que os dados sobre o piloto automático são a “jóia da coroa do portfólio de propriedade intelectual da empresa" e que o profissional teria levado as informações para seu novo empregador, a concorrente chinesa.</p><br>
+            <div class="container">
+                
+                <div class="row">
+                    <!-- Albuns -->
+                    <div class="col-md-6">
+                        
+                        <div class="row albuns">
+                            
+                            <div class="col-md-6">
+                                <img src="imagens/img1.jpg" class="img-responsive">
+                            </div>
 
-            <p>No processo, o ex-funcionário Guangzhi Cao admitiu ter acessado as informações e as enviado para um arquivo pessoal, porém, nega a acusação de roubo de segredos comerciais.
-            <p>Tesla x Xiaopeng Motors
-            Também conhecida por XMotors ou XPeng, a empresa chinesa constrói carros elétricos e já foi acusada por outras companhias, como Apple, de roubar informações sobre automóveis autônomos por meio da contratação de ex-funcionários que transferiam os dados.<br>
+                            <div class="col-md-6">
+                                <img src="imagens/img2.jpg" class="img-responsive">
+                            </div>
+                        </div>
 
-            A Tesla diz que a chinesa é conhecida por copiar suas ideias. “Inspirada em uma missão para vencer a Tesla, a XMotors projetou seus veículos em torno das patentes de código aberto da Tesla e imita de forma transparente o design, a tecnologia e até mesmo o modelo de negócios da Tesla", diz a empresa de Elon Musk.
+                        <div class="row albuns">
+                            
+                            <div class="col-md-6">
+                                <img src="imagens/img3.jpg" class="img-responsive">
+                            </div>
 
-            A chinesa negou envolvimento nas ações dos seus contratados e afirmou que existe um fluxo natural de talentos entre ela e a Tesla. A Xiaopeng Motors não foi inserida no processo contra Cao.</p>
-           <span class="postado">Postado por Willians Macena</span>
-       </article>
-    
-       <article id="postagem">
-           <h2><strong>Facebook, WhatsApp, Instagram e Twitter têm problemas nesta quarta-feira </strong></h2>
-           <span class="data-postagem">postada em 28 de junho de 2019</span>
-           <img class="img-postagem" src="img/facebook_1.jpg">
-           <p>As plataformas do Facebook, incluindo Whatsapp e Instagram, apresentaram problemas de funcionamento nesta quarta-feira (3). Os relatos de instabilidade começaram pela manhã e continuaram à tarde. Entre os principais problemas encontrados pelos usuários estão o envio de mídias, como fotos, vídeos, áudios e figurinhas (no caso do WhatsApp).</p>
+                            <div class="col-md-6">
+                                <img src="imagens/img4.jpg" class="img-responsive">
+                            </div>
+                        </div>
 
-            <p>O Twitter também apresentou problemas por volta das 12h, com pessoas reclamando do sistema de envio de mensagens diretas, que depois se normalizou. Em torno de 20h, usuários disseram que o Instagram e o Facebook estavam normais.</p>
-           <span class="postado">Por G1<br>03/07/2019 11h26  Atualizado há uma semana</span>
-       </article>
-    </section>
 
-    <nav id="rodape" class="col-xs-12 col-sm-12"> By Willians Macena</nav>
+                    </div>
+                    <!-- Serviços -->
+                    <div class="col-md-6 texto-roxo">
+                        <h2>O que o Spotify tem?</h2>
 
-    <script src="htt ps://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="bootstrap/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                        <h3>Músicas</h3>
+                        <p>Spotify tem tem spotify etc etc Spotify tem tem spotify etc etc Spotify tem tem spotify etc etc  </p>
+
+                        <h3>Playlists</h3>
+                        <p>Spotify tem tem spotify etc etc Spotify tem tem spotify etc etc Spotify tem tem spotify etc etc  </p>
+
+                        <h3>Novos lançamentos</h3>
+                        <p>Spotify tem tem spotify etc etc Spotify tem tem spotify etc etc Spotify tem tem spotify etc etc  </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="recursos">
+
+            <div class="container">
+                
+                <div class="row">
+                    
+                    <div class="col-md-4 texto-azul-claro">
+                        <h2>Fácil</h2>
+
+                        <h3>Buscar</h3>
+                        <p>Já saber o que escutar? É Só procurar e apertar o play.</p>
+
+                        <h3>Navegar</h3>
+                        <p>Já saber o que escutar? É Só procurar e apertar o play.Já saber o que escutar? É Só procurar e apertar o play.</p>
+
+                        <h3>Descobrir</h3>
+                        <p>Já saber o que escutar? É Só procurar e apertar o play scutar? É Só procurar e apertar o play.scutar? É Só procurar e apertar o play.</p>
+                    </div>
+
+                    <div class="col-md-8" style="">
+                        
+                        <div class="row rotacionar">
+                            
+                            <div class="col-md-6">
+                                <img src="imagens/iphone1.png" class="img-responsive">
+                            </div>
+
+                            <div class="col-md-6">
+                                <img src="imagens/iphone2.png" class="img-responsive">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- @@@@@@@@@@@@@Rodapé@@@@@@@@@@@@ -->
+        <footer id="rodape">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-2">
+                            <span class="img-logo">Spotify</span>
+                    </div>
+
+                    <div class="col-md-2">
+                        <h4>Company</h4>
+                        <ul class="nav">
+                            <li><a href="">Sobre</a></li>
+                            <li><a href="">Empregos</a></li>
+                            <li><a href="">Imprensa</a></li>
+                            <li><a href="">Novidades</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2">
+                        <h4>Comunidade</h4>
+                        <ul class="nav">
+                            <li><a href="">Artistas</a></li>
+                            <li><a href="">Desenvolvedores</a></li>
+                            <li><a href="">Marcas</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2">
+                        <h4>Links Úteis</h4>
+                        <ul class="nav">
+                            <li><a href="https://www.google.com/">Google</a></li>
+                            <li><a href="https://www.facebook.com/">Facebook</a></li>
+                            <li><a href="https://br.yahoo.com/">Yahoo</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Imagens Redes Sociais -->
+                    <div class="col-md-4">
+                        <ul class="nav">
+                            <li class="item-rede-social"><a href="https://www.facebook.com/"><img src="imagens/facebook.png"></a></li>
+                            <li class="item-rede-social"><a href="https://twitter.com/"><img src="imagens/twitter.png"></a></li>
+                            <li class="item-rede-social"><a href="https://www.instagram.com"><img src="imagens/instagram.png"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+            </div>
+        </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
